@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: jvddavid portfolio
-description: Bookmark this to keep an eye on my project updates!
+# global settings
+auto: true
+title: "Jvddavid"
+description: "Portfolio of Jvddavid"
+url: https://jvddavid.github.io

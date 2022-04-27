@@ -1,345 +1,38 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!--
+Author: João Victor David de Oliveira (j.victordavid2@gmail.com)
+README.md (c) 2022
+Desc: description
+Created:  2022-04-27T05:18:14.946Z
+Modified: 2022-04-27T05:18:43.998Z
+-->
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+## Oi eu sou o João Victor Davi de Oliveira, desenvolvedor Junior!
 
-  <!--=============== FAVICON ===============-->
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+<div align="center">
+  <a href="https://github.com/jvddavid">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=jvddavid&show_icons=true&theme=highcontrast&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jvddavid&layout=compact&langs_count=7&theme=highcontrast"/>
+</div>
+<div style="display: inline_block"><br>
+  <img align="center" alt="Joao-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+  <img align="center" alt="Joao-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
+  <img align="center" alt="Joao-React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="Joao-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="Joao-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Joao-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+</div>
 
-  <!--=============== REMIX ICONS ===============-->
-  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+##
 
-  <!--=============== CSS ===============-->
-  <link rel="stylesheet" href="assets/css/styles.css">
+<div>
+ 	<a href = "mailto:j.victordavid2@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+ 	<a href = "https://jvddavid.github.io"><img src="https://img.shields.io/badge/-Github Page-%23333?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+  <a href="https://instagram.com/jvddavid" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/joão-victor-davi-abb8341a3" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="https://api.whatsapp.com/send?phone=5534999475798&text=Oi, preciso de mais informações suas!" target="_blank" class="button button__small button__gray">
+      <img src="https://img.shields.io/badge/-Whatsapp-%2300ff00?style=for-the-badge&logo=whatsapp&logoColor=white" target="_blank">
+  </a>
 
-  <title>João Victor - Portfolio</title>
-</head>
+![Snake animation](https://github.com/jvddavid/jvddavid/blob/output/github-contribution-grid-snake.svg)
 
-<body>
-  <!--=============== HEADER ===============-->
-  <header class="profile container">
-    <!-- Theme button -->
-    <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-    <div class="profile__container grid">
-      <div class="profile__data">
-        <div class="profile__border">
-          <div class="profile__perfil">
-            <!-- Insert your image, according to the example size of the portfolio -->
-            <img src="assets/img/perfil.png" alt="">
-          </div>
-        </div>
-
-        <h2 class="profile__name">João Victor Davi de Oliveira</h2>
-        <h3 class="profile__profession">Web developer</h3>
-
-        <ul class="profile__social">
-          <a href="https://www.instagram.com/jvddavid/" target="_blank" class="profile__social-link">
-            <i class="ri-instagram-line"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/joão-victor-davi-abb8341a3/" target="_blank"
-            class="profile__social-link">
-            <i class="ri-linkedin-box-line"></i>
-          </a>
-          <a href="https://github.com/jvddavid" target="_blank" class="profile__social-link">
-            <i class="ri-github-line"></i>
-          </a>
-        </ul>
-      </div>
-
-      <div class="profile__info grid">
-        <div class="profile__info-group">
-          <h3 class="profile__info-number">2</h3>
-          <p class="profile__info-description">
-            Years of <br> work
-          </p>
-        </div>
-        <div class="profile__info-group">
-          <h3 class="profile__info-number">+10</h3>
-          <p class="profile__info-description">
-            Completed <br> projects
-          </p>
-        </div>
-        <div class="profile__info-group">
-          <h3 class="profile__info-number">3</h3>
-          <p class="profile__info-description">Satisfied <br> customers</p>
-        </div>
-      </div>
-
-      <div class="profile__buttons">
-        <!-- Insert your CV -->
-        <a href="https://resume.io/r/4FVzI5dV1" target="_blank" class="button">
-          Download CV <i class="ri-download-line"></i>
-        </a>
-
-        <div class="profile__buttons-small">
-          <!-- Insert a real number plus country code -->
-          <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank"
-            class="button button__small button__gray">
-            <i class="ri-whatsapp-line"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </header>
-
-  <!--=============== MAIN ===============-->
-  <main class="main">
-    <section class="filters container">
-      <!--=============== FILTERS TABS ===============-->
-      <ul class="filters__content">
-        <button class="filters__button filter-tab-active" data-target="#projects">
-          Projects
-        </button>
-        <button class="filters__button" data-target="#skills">
-          Skills
-        </button>
-      </ul>
-
-      <div class="filters__sections">
-        <!--=============== PROJECTS ===============-->
-        <div class="projects__content grid filters__active" data-content id="projects">
-          <article class="projects__card">
-            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
-            <img src="assets/img/project1.jpg" alt="" class="projects__img">
-
-            <div class="projects__modal">
-              <div>
-                <span class="projects__subtitle">Web</span>
-                <h3 class="projects__title">Payment Site</h3>
-                <a href="#" class="projects__button button button__small">
-                  <i class="ri-link"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="projects__card">
-            <img src="assets/img/project2.jpg" alt="" class="projects__img">
-
-            <div class="projects__modal">
-              <div>
-                <span class="projects__subtitle">Web</span>
-                <h3 class="projects__title">Portfolio website</h3>
-                <a href="#" class="projects__button button button__small">
-                  <i class="ri-link"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="projects__card">
-            <img src="assets/img/project3.jpg" alt="" class="projects__img">
-
-            <div class="projects__modal">
-              <div>
-                <span class="projects__subtitle">Movil</span>
-                <h3 class="projects__title">Fast food app</h3>
-                <a href="#" class="projects__button button button__small">
-                  <i class="ri-link"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="projects__card">
-            <img src="assets/img/project4.jpg" alt="" class="projects__img">
-
-            <div class="projects__modal">
-              <div>
-                <span class="projects__subtitle">Movil</span>
-                <h3 class="projects__title">Travel app</h3>
-                <a href="#" class="projects__button button button__small">
-                  <i class="ri-link"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-
-          <article class="projects__card">
-            <img src="assets/img/project5.jpg" alt="" class="projects__img">
-
-            <div class="projects__modal">
-              <div>
-                <span class="projects__subtitle">Design</span>
-                <h3 class="projects__title">Music app design</h3>
-                <a href="#" class="projects__button button button__small">
-                  <i class="ri-link"></i>
-                </a>
-              </div>
-            </div>
-          </article>
-        </div>
-
-        <!--=============== SKILLS ===============-->
-        <div class="skills__content grid" data-content id="skills">
-          <div class="skills__area">
-            <h3 class="skills__title">Frontend Developer</h3>
-
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">HTML</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">CSS</h3>
-                    <span class="skills__level">Basic</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">JavaScript</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">React</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Bootstrap</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Git</h3>
-                    <span class="skills__level">Basic</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="skills__area">
-            <h3 class="skills__title">Backend Developer</h3>
-
-            <div class="skills__box">
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">TypeScript</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Kubernetes</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Docker</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">MySQL</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">PostgreSQL</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Firebase</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-
-              <div class="skills__group">
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Python</h3>
-                    <span class="skills__level">Advanced</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Node Js</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <i class="ri-checkbox-circle-line"></i>
-
-                  <div>
-                    <h3 class="skills__name">Next.Js</h3>
-                    <span class="skills__level">Intermediate</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!--=============== SCROLLREVEAL ===============-->
-  <script src="assets/js/scrollreveal.min.js"></script>
-
-  <!--=============== MAIN JS ===============-->
-  <script src="assets/js/main.js"></script>
-</body>
-
-</html>
+</div>
